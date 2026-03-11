@@ -8,8 +8,14 @@ bank = [
 
 print("Welcome to PyBank!")
 
-number = input("Enter your account number: ")
-account = bank.index(Account(number))
+number = int(input("Enter your account number: "))
+
+try:
+  account = bank.index(Account(number))
+except ValueError:
+  print("Invalid account number")
+  sys.exit(1)
+
 account = bank[account]
 operation = int(input("How can we help you today? (type '0' to show your current balance, '-amount' to withdraw <amount> € or '+amount' to deposit <amount> €) "))
 
