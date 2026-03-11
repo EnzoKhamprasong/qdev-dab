@@ -23,7 +23,7 @@ Le programme repose sur le module `dab`. Son script principal dans `dab/__main__
 
 ## Tests
 
-Le script `tests\unit_tests.py` implémente une suite de tests unitaires (grâce au module `unittest` de Python) du programme DAB. Vous pouvez lancer ces tests en exécutant :
+Le script `tests/unit_tests.py` implémente une suite de tests unitaires (grâce au module `unittest` de Python) du programme DAB. Vous pouvez lancer ces tests en exécutant :
 
 - dans Invite de commandes / PowerShell sur Windows,
 ```bash
