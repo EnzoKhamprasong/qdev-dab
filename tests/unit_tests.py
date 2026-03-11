@@ -1,8 +1,9 @@
 import unittest
+from dab.account import *
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
+class DABUnitTests(unittest.TestCase):
+  def test_checkWithdrawal(self):
+    self.assertEqual(True, False)
 
 if __name__ == '__main__':
-    unittest.main()
+  unittest.main()
